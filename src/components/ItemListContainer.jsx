@@ -25,13 +25,12 @@ export const ItemListContainer = ()=>{
                 setProducts(newList)
             }
         })
-            // eslint-disable-next-line
+        // eslint-disable-next-line
     },[typeProduct])
 
 
     return(
         <div className="item-list-container">
-            <p>item list container</p>
             <ItemList items={products}/>
         </div>
     )

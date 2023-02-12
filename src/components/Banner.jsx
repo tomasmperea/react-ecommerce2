@@ -1,4 +1,5 @@
 import banner from '../assets/img/OEMBX50.jpg';
+import './styles/Banner.css';
 
 export const Banner = () => {
   return (
