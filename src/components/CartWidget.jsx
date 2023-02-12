@@ -1,9 +1,8 @@
-const CartWidget = () => {
+export const  CartWidget = () => {
   return (
     <>
       <div>
         <svg
-          id="consultarCarrito"
           width="30"
           height="30"
           viewBox="0 0 24 24"
@@ -32,4 +31,3 @@ const CartWidget = () => {
   );
 };
 
-export default CartWidget;
