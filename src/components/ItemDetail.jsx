@@ -3,7 +3,7 @@ import './styles/ItemDetail.css';
 export const ItemDetail = ({item})=>{
     return(
         <div className='detail-container'>
-            <p style={{width: "100%"}}></p>
+            <p style={{width: "100%", fontSize: "50px"}}></p>
             <div className='img-container'>
                 <img src={item.imageUrl} alt={item.title}/>
             </div>

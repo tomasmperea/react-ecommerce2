@@ -5,6 +5,28 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: #e4e6ed;
+    background: #d26826a1;
     padding: 10px 0;
+}
+
+.item-list-container .estilos-listado {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(230, 82, 13, 0.243);
+    color: rgb(203, 15, 15);
+    width: 90%;
+    height: auto;
+}
+
+.item-list-container .tarjeta-producto {
+    width: 150px;
+    height: auto;
+    background-color: rgba(184, 243, 184, 0.519);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

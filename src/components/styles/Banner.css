@@ -1,6 +1,13 @@
 .contenedor-main {
-    width: 50px;
+    width: 100vw;
     height: auto;
     margin: 10px;
     padding: 10px;
+
+}
+
+.contenedor-main img {
+    width: 50%;
+    height: auto;
+    
 }
